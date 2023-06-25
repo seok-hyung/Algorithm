@@ -1,3 +1,4 @@
+// 프로그래머스 완전탐색 level 1
 function solution(answers) {
   let person1 = [1, 2, 3, 4, 5];
   let person2 = [2, 1, 2, 3, 2, 4, 2, 5];
