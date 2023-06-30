@@ -1,3 +1,4 @@
+// 프로그래머스 그리디 level 2
 function solution(name) {
   let changeAlphabet = 0;
   let minMoves = name.length - 1;
