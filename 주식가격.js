@@ -1,3 +1,4 @@
+// 프로그래머스 스택/큐 level 2
 function solution(n){
     let result = []
     for (let i = 0; i < n.length; i++){
