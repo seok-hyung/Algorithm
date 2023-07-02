@@ -1,3 +1,4 @@
+// 프로그래머스 완전탬색 level 2
 function solution(k, dungeons) {
     let answer = 0;
     const ch = Array.from({ length: dungeons.length }, _ => 0);
