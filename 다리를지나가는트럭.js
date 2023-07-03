@@ -1,3 +1,4 @@
+// 프로그래머스 스택/큐 level 2
 function solution(bridge_length, weight, truck_weights) {
     let answer = 0;
     
