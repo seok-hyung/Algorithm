@@ -1,3 +1,4 @@
+// 프로구래머스 최소직사각형
 function solution(sizes) {
   let arr = sizes.map((size) =>
     size[0] > size[1] ? [size[0], size[1]] : [size[1], size[0]]
