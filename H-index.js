@@ -1,3 +1,4 @@
+// 프로그래머스 level 2
 function solution(citations) {
   citations.sort((a, b) => b - a);
 
