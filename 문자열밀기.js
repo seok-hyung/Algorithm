@@ -1,3 +1,4 @@
+// 프로그래머스 level 0
 function solution(A, B) {
     let arr = [...A]
     for(let i = 0; i< arr.length; i++){
