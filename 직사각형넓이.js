@@ -1,3 +1,4 @@
+// 프로그래머스 level 0
 function solution(dots) {
     dots.sort((a,b) => a[0] - b[0]);
     
