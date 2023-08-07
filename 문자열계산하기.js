@@ -1,4 +1,4 @@
-// 문자열 계산하기 
+// 프로그래머스 level 1
 function solution(my_string) {
     let arr = my_string.split(' ')
     let answer = arr[0]*1
