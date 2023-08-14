@@ -1,3 +1,4 @@
+// 프로그래머스 level 1
 function solution(num, total) {
     // 초기 값을 구하는 과정
     // total / num 으로 연속 되는 숫자의 중간 값을 구한다.
