@@ -1,4 +1,4 @@
-// 나의 풀이
+// 프로그래머스 level 1
 function solution(numList, n) {
     let result = []
     result = numList.sort((a, b) => {
