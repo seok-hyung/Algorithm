@@ -6,6 +6,7 @@
 // "people"	        "peol"
 // "We are the world"	"We arthwold"
 
+// 프로그래머스 level 0
 function solution(my_string){
     let s = new Set(my_string);
     return [...s].join('')
