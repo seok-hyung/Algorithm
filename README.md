@@ -1,5 +1,1 @@
-# codingTest
-
-### 프로그래머스
-
-### 백준
+# codingTest(프로그래머스)
