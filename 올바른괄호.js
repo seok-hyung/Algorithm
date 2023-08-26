@@ -1,4 +1,4 @@
-// 프로그래머스 스택/큐 level2 
+// 프로그래머스 스택/큐 leve 1
 function solution(s){
     let stackCount = 0;
     for (let i = 0; i < s.length; i++) {
