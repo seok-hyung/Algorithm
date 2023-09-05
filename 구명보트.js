@@ -1,4 +1,4 @@
-// 프로그래머스 greedy level 2
+// 프로그래머스 greedy level 1
 function solution(people, limit){
 	var answer = 0
     people.sort((a,b) => b-a)
