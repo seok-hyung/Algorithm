@@ -1,4 +1,4 @@
-// 문자반복출력 2가지 방법
+// 프로그래머스 level 1
 function solution(my_string, n) {
   return my_string.split("").reduce((acc, cur) => acc + cur.repeat(n), "");
 }
