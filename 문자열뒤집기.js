@@ -1,4 +1,4 @@
-// 문자열 뒤집기 2가지 방법
+// 문자열 뒤집기 2가지
 function solution(my_string) {
   let answer = "";
   for (let i = my_string.length - 1; i >= 0; i--) {
@@ -8,5 +8,5 @@ function solution(my_string) {
 }
 
 function solution(my_string) {
-  return my_string.split("").revers().join("");
+  return my_string.split("").reverse().join("");
 }
