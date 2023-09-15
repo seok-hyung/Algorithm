@@ -1,4 +1,4 @@
-// 프로그래머스 완전탐색 level 2
+// 프로그래머스 완전탐색 level 1
 function solution(n) {
   let answer = 0;
   const arr = new Array(n + 1).fill(true);
