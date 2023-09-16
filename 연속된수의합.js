@@ -1,4 +1,4 @@
-// 프로그래머스 level 1
+// 프로그래머스 level 2
 function solution(num, total) {
     var answer = [];
     if(total % num === 0){
