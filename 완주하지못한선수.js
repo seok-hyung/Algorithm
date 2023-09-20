@@ -1,4 +1,4 @@
-// 프로그래머스 해시 level 1
+// 프로그래머스 해시 level 2
 function solution(participant, completion) {
   participant.sort(); //참가자 배열 정렬
   completion.sort(); //완주자 배열 정렬
