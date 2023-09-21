@@ -1,4 +1,4 @@
-// 프로그래머스 greedy level 1
+// 프로그래머스 greedy level 2
 function solution(n, lost, reserve) {
   var answer = n - lost.length;
   // 처음 가능한 학생수 = n - lost.length
