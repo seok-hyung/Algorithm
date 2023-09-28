@@ -1,4 +1,4 @@
-// 프로그래머스 완전탐색 level 1
+// 프로그래머스 완전탐색 level1
 function solution(sizes) {
   let arr = sizes.map((size) =>
     size[0] > size[1] ? [size[0], size[1]] : [size[1], size[0]]
