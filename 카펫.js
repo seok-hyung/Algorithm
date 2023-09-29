@@ -1,4 +1,4 @@
-// 프로그래머스 완전탐색 level2
+// 프로그래머스 완전탐색 level 2
 function solution(brown, yellow) {
   var answer = [];
   let sum = brown + yellow;
