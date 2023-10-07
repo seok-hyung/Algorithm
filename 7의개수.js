@@ -1,4 +1,4 @@
-// 프로그래머스 level 1
+// 프로그래머스 level1
 function solution(array){
     return array.join('').split('').filter((v)=>v==='7').length
 }
