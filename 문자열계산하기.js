@@ -1,4 +1,4 @@
-// 프로그래머스 level 1
+// 프로그래머스 level1
 function solution(my_string) {
     let arr = my_string.split(' ')
     let answer = arr[0]*1
