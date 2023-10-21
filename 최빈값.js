@@ -1,4 +1,4 @@
-// 프로그래머스 level 1
+// 프로그래머스 level 2
 function solution(array) {
     // array의 길이가 1일 경우 갯수가 하나이기에
     // 그 값을 반환해준다.
