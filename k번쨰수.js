@@ -1,4 +1,4 @@
-// 프로그래머스 정렬 level 2
+// 프로그래머스 정렬 level2
 function solution(array, commands) {
   var answer = [];
 
