@@ -1,3 +1,4 @@
+// level 2
 const solution = s => {
   let answer = []
   const newArr = s
