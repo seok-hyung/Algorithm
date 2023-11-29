@@ -1,4 +1,4 @@
-// 프로그래머스 그리디 level 1
+// 프로그래머스 Greedy level 1
 function solution(name) {
   let changeAlphabet = 0;
   let minMoves = name.length - 1;

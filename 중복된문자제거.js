@@ -12,4 +12,3 @@ function solution(my_string){
     return [...s].join('')
     
 }
-console.log(solution('people')) // peol
