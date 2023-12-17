@@ -1,4 +1,3 @@
-// 프로그래머스 level 1
 function solution(lines) {
     var answer = 0;
     let lineMap = new Array(200);  // 선분들이 놓일 공간
