@@ -17,6 +17,8 @@ function solution(arr) {
 
 // 두번째 풀이
 // 스택을 활용한 풀이
+// 정확성 : 71.9
+// 효율성 28.1
 let arrr = [1, 1, 3, 3, 0, 1, 1];
 function solution2(arr) {
   let stack = [arr[0]];
@@ -27,4 +29,11 @@ function solution2(arr) {
     }
   }
   return stack;
+}
+
+// 세번째 풀이
+// filter 메소드 활용
+
+function solution3(arr) {
+  return arr.filter((val, index) => val != arr[index + 1]);
 }
