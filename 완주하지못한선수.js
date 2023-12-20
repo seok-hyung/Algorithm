@@ -40,13 +40,16 @@ function solution2(participant, completion) {
 function solution3(participant, completion) {
   let hashed = [];
   participant.forEach((entry) => {
+    // hashed[entry] = 1;
+    // 이름이 같은 경우에는 value값을 1로 해주면 같은 사람이 몇명 있든 1로 되기떄문에 key값이 이미 있다면 원래 값에 +1 해줘야 한다!!
     hashed[entry] = hashed[entry] ? hashed[entry] + 1 : 1;
   });
   completion.forEach((entry) => {
     hashed[entry] = hashed[entry] - 1;
   });
 
-  for (var key in hashed) {
+  for (const key in hashed) {
     if (hashed[key] >= 1) return key;
   }
 }
+solution3(['mislav', 'stanko', 'mislav', 'ana'], ['stanko', 'ana', 'mislav']);
