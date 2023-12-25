@@ -1,4 +1,3 @@
-// 프로그래머스 level 1
 function solution(dot) {
   let answer = 0;
   const x = dot[0];
