@@ -32,7 +32,8 @@ console.log(
     [30, 10],
   ]),
 );
-// 다른 사람의 풀이
+
+// 실패!!
 function solution2(k, d) {
   let answer = 0;
   d.sort((a, b) => b[0] - b[1] - (a[0] - a[1]));
@@ -44,3 +45,5 @@ function solution2(k, d) {
   }
   return answer;
 }
+
+//
