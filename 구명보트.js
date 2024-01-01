@@ -6,7 +6,6 @@
 // people[start]와 people[end]를 더한다.
 // 만약 그 값이 limit보다 작다면 end-- 해주고 다시 더해준다.
 // 위의 과정을 while( temp <= limit ) 까지 반복
-//
 
 // solution1의 문제점
 // shift() 및 pop() 이러한 메소드는 배열의 길이에 따라 비례하는 시간 복잡도를 가지는데, 이는 배열이 클 경우 매우 비효율적이다.
